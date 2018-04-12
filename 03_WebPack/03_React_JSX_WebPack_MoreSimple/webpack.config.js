@@ -4,6 +4,8 @@ const src  = path.resolve(__dirname, 'src')
 const dist = path.resolve(__dirname, 'build')
 
 module.exports = {
+  mode: 'none',
+
   entry: src + '/index.jsx',
 
   output: {
